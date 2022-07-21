@@ -22,7 +22,7 @@ spec:
     repository: jenkins-x-cluster
   - key: staging
   ingress:
-    domain: ""
+    domain: 192.168.5.15.nip.io
     ignoreLoadBalancer: true
     kind: ingress
     namespaceSubDomain: .jx.
